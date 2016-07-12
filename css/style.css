@@ -1,0 +1,94 @@
+/* Coolors Exported Palette - coolors.co/0d5325-cabd13-d27b82-f9ebc9-6c6a29 
+
+$color1: #0d5325; //rgba(13, 83, 37, 100)
+$color2: #cabd13; //rgba(202, 189, 19, 100)
+$color3: #d27b82; //rgba(210, 123, 130, 100)
+$color4: #f9ebc9; //rgba(249, 235, 201, 100)
+$color5: #6c6a29; //rgba(108, 106, 41, 100)
+*/
+
+body {
+	background-color: black;
+	color: #f9ebc9;
+	text-align: center;
+}
+
+/*font-family: 'Unkempt', cursive;  (extra front style)*/
+
+.site-wrapper {
+	color: #cabd13;
+	background-image: url("../img/cover1.jpg");
+	background-repeat:no-repeat;
+	background-size: 100%;
+	text-align: center;
+	font-family: 'Henny Penny', cursive; 
+}
+
+.jumbotron {
+	background-image: url("../img/brandLabel_files/11939301_957402667656353_1695797413_n_Fotor.jpg");
+    margin-bottom: 50px;
+    background-position: 0% 25%;
+    background-size: cover;
+    height: 500px;
+    background-repeat: no-repeat;
+    color: white;
+    text-shadow: #0d5325 0.3em 0.3em 0.3em;
+}
+
+section {
+	margin: 100px 10px 120px 10px;
+}
+
+a {
+	color: #cabd13;
+}
+
+a:hover {
+	color:#d27b82;
+	text-decoration: none;
+}
+
+h1, h2, h3 {
+	font-family: 'Henny Penny', cursive;
+	color: #cabd13;
+}
+
+.lead {
+	text-align: center;
+}
+
+p {
+	font-family: 'Shadows Into Light Two', cursive;
+}
+
+img.sample { 
+	margin: 12px;
+	width: 90%;
+	/*border: #f9ebc9 solid 2px;*/
+	
+ }
+
+ img.profile {
+ 	width: 55%;
+ }
+
+
+
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: @screen-sm-min) { 
+
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: @screen-md-min) { 
+
+}
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: @screen-lg-min) { 
+
+}
+
+
+
